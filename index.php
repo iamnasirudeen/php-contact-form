@@ -17,22 +17,23 @@
             <div class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </div>
-            <form method="post" action='contact-form.php'>
+            <form method="post" action='contact-form.php' id="contactForm">
                 <h3>Drop Me a Message</h3>
+                <span class="alert alert-success messagehere"></span>
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" />
+                            <input type="text" name="Name" class="form-control" placeholder="Your Name *" value="" id="name" />
                         </div>
                        
                         <div class="form-group">
-                            <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" />
+                            <input type="text" name="email" class="form-control" placeholder="Your Email *" value="" id="email" />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="phone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            <input type="text" name="phone" class="form-control" placeholder="Your Phone Number *" value="" id="phone" />
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="submit" class="btnContact" value="Send Message" />
+                            <input type="submit" name="submit" class="btnContact" value="Send Message" id="message" />
                         </div>
                     </div>
                     <div class="col-md-6">
